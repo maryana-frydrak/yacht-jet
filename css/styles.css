@@ -1,0 +1,15 @@
+/* font-family: "Inter", sans-serif; */
+body {
+    font-family: "Inter", sans-serif;
+    color: #fbfbfb;
+    background-color: #0e1823;
+}
+
+ul,
+ol {
+    list-style-type: none;
+}
+
+a {
+    text-decoration: none;
+}
