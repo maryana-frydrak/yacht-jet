@@ -179,8 +179,8 @@ img {
 }
 
 .second-section-block-container {
-    display: flexbox;
-    padding: 50px 299px;
+    display: flex;
+    padding: 50px 299px 43px 50px;
 }
 
 .text {
@@ -190,6 +190,12 @@ img {
     line-height: 1;
     letter-spacing: -0.02em;
     color: #1b414b;
+}
+
+.second-section-text-container {
+    display: grid;
+    padding: 50px 50px 100px 299px;
+
 }
 
 .text-by-text {
