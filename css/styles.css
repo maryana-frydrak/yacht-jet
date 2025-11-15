@@ -255,6 +255,16 @@ img {
 /* #endregion fourth-section */
 
 /* #region fifth-section */
+.fifth-section-container {
+    display: flex;
+    text-align: center;
+    justify-content: center;
+}
+
+.form-container {
+    margin-bottom: 18px;
+}
+
 
 /* #endregion fifth-section */
 
