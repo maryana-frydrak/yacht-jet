@@ -184,21 +184,25 @@ img {
 
 /* #region second-section */
 .second-section {
+    position: relative;
+
     margin: 0 50px;
+    width: 1340px;
 }
 
 .second-section-container {
-    min-width: 1340px;
+    display: flex;
+    gap: 299px;
     height: 675px;
-    padding-left: 50px;
-    padding-right: 50px;
+    padding: 50px 50px 0 50px;
+
     border-radius: 24px;
     background: #fbfbfb;
 }
 
 .second-section-block-container {
-    display: flex;
-    padding: 50px 299px 43px 50px;
+    width: 537px;
+    height: 144px;
 }
 
 .text {
@@ -211,9 +215,11 @@ img {
 }
 
 .second-section-text-container {
-    display: grid;
-    padding: 50px 50px 100px 299px;
-
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    width: 404px;
+    height: 187px;
 }
 
 .text-by-text {
@@ -237,6 +243,9 @@ img {
 }
 
 .img-second-section {
+    position: absolute;
+    top: 337px;
+
     border-radius: 0 24px 0 0;
 }
 
