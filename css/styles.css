@@ -265,12 +265,16 @@ img {
 }
 
 .third-section-list {
+
     display: flex;
     flex-wrap: wrap;
     gap: 32px;
+
+
+
 }
 
-.third-section-item-container {
+.third-section-list-container {
     border-radius: 24px;
     width: 392px;
     height: 508px;
@@ -279,7 +283,9 @@ img {
     background-color: #fff;
 }
 
-.third-section-text-by-text {
+.left-text-categories {
+    display: inline-block;
+    text-align: left;
     padding-top: 32px;
 
     font-weight: 500;
@@ -292,7 +298,10 @@ img {
     color: #1b414b;
 }
 
-.third-section-paragraph {
+.right-text-categories {
+    display: inline-block;
+    text-align: right;
+    padding-top: 32px;
     font-weight: 400;
     font-size: 13px;
 
