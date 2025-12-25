@@ -453,8 +453,7 @@ img {
 }
 
 .img-fourth-section {
-    width: 540px;
-    height: 424px;
+    border-radius: 24px;
 }
 
 /* #endregion fourth-section */
@@ -467,6 +466,10 @@ img {
 .fifth-section-container {
     display: flex;
     gap: 50px;
+}
+
+.img-fifth-section {
+    border-radius: 24px;
 }
 
 .fifth-section-text {
@@ -695,7 +698,12 @@ img {
     margin: 0 auto;
 }
 
+.footer-ending-container {
+    display: flex;
+    justify-content: center;
+    gap: 32px;
 
+}
 
 .footer-ending-paragraph {
     font-weight: 400;
@@ -706,11 +714,6 @@ img {
     letter-spacing: 0.03em;
     text-align: center;
     color: rgba(251, 251, 251, 0.4);
-
-    display: flex;
-    gap: 32px;
-    width: 298px;
-    margin: 0 auto;
 }
 
 /* #endregion footer */
