@@ -99,7 +99,8 @@ img {
 
 .burger-icon {
     display: block;
-    fill: #1b414b;
+    stroke-width: 2.50px;
+    stroke: #1b414b;
 }
 
 @media screen and (min-width: 768px) {
