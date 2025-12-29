@@ -422,6 +422,12 @@ img {
     .first-section-paragraph {
         padding: 0 202px;
     }
+
+    .main-button:hover,
+    .main-button:focus {
+        background-color: #fbfbfb;
+        color: #1b414b;
+    }
 }
 
 @media screen and (min-width: 1440px) {
@@ -801,6 +807,12 @@ img {
     .img-third-section-vector {
         width: 313px;
     }
+
+    .third-section-button:hover,
+    .third-section-button:focus {
+        background-color: #fbfbfb;
+        color: #1b414b;
+    }
 }
 
 @media screen and (min-width: 1440px) {
@@ -827,7 +839,7 @@ img {
 
 /* #region fourth-section */
 .fourth-section {
-    padding: 80px 20px;
+    padding-top: 80px;
 }
 
 .visually-hidden {
@@ -847,6 +859,8 @@ img {
     display: flex;
     flex-direction: column;
     gap: 20px;
+    width: 335px;
+    margin: 0 auto;
 }
 
 .order-list-container {
@@ -876,7 +890,7 @@ img {
 
 .img-order-list {
     border-radius: 18px;
-    width: 318px;
+    width: 295px;
     height: 2px;
     color: rgba(251, 251, 251, 0.1);
 
@@ -887,7 +901,7 @@ img {
     font-weight: 400;
     font-size: 12px;
 
-    /* line-height: 15px; */
+    /* line-height: 14px; */
     line-height: 1.17;
     letter-spacing: -0.02em;
     color: #fbfbfb;
@@ -911,11 +925,56 @@ img {
 
 @media screen and (min-width: 768px) {
     .fourth-section {
-        padding: 150px 32px
+        padding-top: 150px;
     }
 
     .fourth-section-container {
         gap: 32px;
+        width: 704px;
+    }
+
+    .order-list-container {
+        width: 704px;
+        height: 424px;
+        padding: 90px 32px;
+    }
+
+    .order-list {
+        flex-direction: row;
+        flex-wrap: wrap;
+        row-gap: 44px;
+        column-gap: 32px;
+    }
+
+    .order-list-item {
+        width: calc((100% - 44px) / 2);
+    }
+
+    .order-item-number {
+        font-size: 32px;
+    }
+
+    .img-order-list {
+        width: 304px;
+    }
+
+    .order-item-text {
+        font-size: 13px;
+        line-height: 1.15;
+    }
+}
+
+@media screen and (min-width: 1280px) {
+    .fourth-section-container {
+        flex-direction: row;
+        gap: 32px;
+        width: 1180px;
+    }
+
+    .order-list-container {
+        width: 716px;
+        height: 424px;
+        padding: 90px 50px;
     }
 }
 
