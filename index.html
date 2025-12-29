@@ -107,7 +107,7 @@
 
 <main>
 <!-- #region first-section -->
-<section class="first-section">
+<section class="first-section hidden">
     <div class="first-section-container">
         <h1 class="main-text">
             Explore the High Seas with Our Luxury Yacht Rentals
@@ -121,7 +121,7 @@
 <!-- #endregion first-section -->
 
 <!-- #region second-section -->
-<section class="second-section">
+<section class="second-section hidden">
     <div class="second-section-container">
             <div class="second-section-block-container">
                 <h2 class="text">
@@ -160,8 +160,8 @@
             <ul class="third-section-list">
                 <li class="third-section-item">
                     <img class="img-third-section" src="./images/arrow.png"
-                             alt="arrow"
-                             width="360"
+                                 alt="arrow"
+                                 width="360"
                     />
                         <span class="left-text-categories" style="float: left;">arrow</span>
                         <span class="right-text-categories" style="float: right;">luxury yachts</span>
@@ -177,11 +177,17 @@
                         </ul>
                 </li>
                 
-                    <li class="third-section-item">
-                        <img class="img-third-section" src="./images/benetti.png"
-                             alt="benetti"
-                             width="360"
-                            />
+                    <li class="third-section-item hidden-item-benetti">
+                        <picture>
+                            <source srcset="./images/benetti.png 1x, ./images/benetti@2x.png 2x" media="(min-width: 1440px)"/>
+                            <source srcset="./images/benetti.png 1x, ./images/benetti@2x.png 2x" media="(min-width: 1280px)"/>
+                            <source srcset="./images/benetti.png 1x, ./images/benetti@2x.png 2x" media="(min-width: 768px)"/>
+                            <source srcset="./images/benetti.png 1x, ./images/benetti@2x.png 2x" media="(max-width: 767px)"/>
+                            <img class="img-third-section" src="./images/benetti.png"
+                                 alt="benetti"
+                                 width="360"
+                                />
+                        </picture>
                         <span class="left-text-categories" style="float: left;">benetti</span>
                         <span class="right-text-categories" style="float: right;">luxury yachts</span>
                         <img class="img-third-section-vector" src="./images/vector3.jpg"
@@ -189,18 +195,24 @@
                              width="328"
                         />
                         <ul class="inside-third-section-list">
-                            <li class="inside-section-item">
+                            <li class="inside-third-section-item">
                                 <span class="left-text-parameters" style="float: left;">length<br>shipyard<br>built<br>guests<br>price</span>
                                 <span class="right-text-parameters" style="float: right;">41m (133ft)<br>benetti<br>2025<br>10 in 5 cabins<br>€23,210,000</span>
                             </li>
                         </ul>
                     </li>
                 
-                    <li class="third-section-item">
-                        <img class="img-third-section" src="./images/belle-anna.png"
-                             alt="anna"
-                             width="360"
-                        />
+                    <li class="third-section-item hidden-item-belle-anna">
+                        <picture>
+                            <source srcset="./images/belle-anna.png 1x, ./images/belle-anna2x.png 2x" media="(min-width: 1440px)"/>
+                            <source srcset="./images/belle-anna.png 1x, ./images/belle-anna2x.png 2x" media="(min-width: 1280px)"/>
+                            <source srcset="./images/belle-anna.png 1x, ./images/belle-anna2x.png 2x" media="(min-width: 768px)"/>
+                            <source srcset="./images/belle-anna.png 1x, ./images/belle-anna2x.png 2x" media="(max-width: 767px)"/>
+                            <img class="img-third-section" src="./images/belle-anna.png"
+                                 alt="belle-anna"
+                                 width="360"
+                            />
+                        </picture>
                         <span class="left-text-categories" style="float: left;">belle anna</span>
                         <span class="right-text-categories" style="float: right;">luxury yachts</span>
                             <img class="img-third-section-vector" src="./images/vector3.jpg"
@@ -222,7 +234,7 @@
 <!-- #endregion third-section -->
 
 <!-- #region fourth-section -->
-<section class="fourth-section hidden">
+<section class="fourth-section">
     <h2 class="visually-hidden">Advantures</h2>
     <div class="fourth-section-container">
         <div class="order-list-container">
