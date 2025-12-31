@@ -60,6 +60,12 @@ img {
     z-index: -1;
 }
 
+@media screen and (min-resolution: 192dpi) {
+    .main-image {
+        background-image: url(../images/yacht-rentals@2x.jpg);
+    }
+}
+
 /* #endregion main-image */
 
 /* #region header */
@@ -497,7 +503,6 @@ img {
 }
 
 .img-second-section {
-    height: 100%;
     border-radius: 24px;
 }
 
