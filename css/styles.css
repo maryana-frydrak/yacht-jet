@@ -1224,6 +1224,10 @@ img {
 }
 
 @media screen and (min-width: 1440px) {
+    .fifth-section {
+        padding: 150px 100px 150px 50px;
+    }
+
     .fifth-section-container {
         width: 1290px;
     }
