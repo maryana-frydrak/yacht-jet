@@ -48,7 +48,7 @@ img {
 
 /* #region main-image */
 .main-image {
-    background-image: url(../images/yacht-rentals.jpg);
+    background-image: url(../images/yacht-rentals-mobile.jpg);
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
@@ -60,9 +60,45 @@ img {
     z-index: -1;
 }
 
-@media screen and (min-resolution: 192dpi) {
+@media screen and (max-width: 767px) and (min-resolution: 192dpi) {
     .main-image {
-        background-image: url(../images/yacht-rentals@2x.jpg);
+        background-image: url(../images/yacht-rentals-mobile@2x.jpg);
+    }
+}
+
+@media screen and (min-width: 768px) {
+    .main-image {
+        background-image: url(../images/yacht-rentals-tablet.jpg);
+    }
+}
+
+@media screen and (min-width: 768px) and (min-resolution: 192dpi) {
+    .main-image {
+        background-image: url(../images/yacht-rentals-tablet@2x.jpg);
+    }
+}
+
+@media screen and (min-width: 1280px) {
+    .main-image {
+        background-image: url(../images/yacht-rentals-desktop12.jpg);
+    }
+}
+
+@media screen and (min-width: 1280px) and (min-resolution: 192dpi) {
+    .main-image {
+        background-image: url(../images/yacht-rentals-desktop12@2x.jpg);
+    }
+}
+
+@media screen and (min-width: 1440px) {
+    .main-image {
+        background-image: url(../images/yacht-rentals.jpg);
+    }
+}
+
+@media screen and (min-width: 1440px) and (min-resolution: 192dpi) {
+    .main-image {
+        background-image: url(../images/yacht-rentals-desktop14@2x.jpg);
     }
 }
 
@@ -603,6 +639,10 @@ img {
 /* #endregion second-section */
 
 /* #region third-section */
+.third-section {
+    padding-top: 80px;
+}
+
 .third-section-container {
     width: 335px;
     margin: 0 auto;
@@ -742,6 +782,10 @@ img {
 }
 
 @media screen and (min-width: 768px) {
+    .third-section {
+        padding-top: 150px;
+    }
+
     .third-section-container {
         width: 704px;
     }
@@ -988,11 +1032,6 @@ img {
     .img-order-list {
         width: 280px;
     }
-
-    .img-fourth-section {
-        width: 432px;
-        height: 424px;
-    }
 }
 
 @media screen and (min-width: 1440px) {
@@ -1007,11 +1046,8 @@ img {
     .img-order-list {
         width: 318px;
     }
-
-    .img-fourth-section {
-        width: 540px;
-    }
 }
+
 
 /* #endregion fourth-section */
 
@@ -1162,8 +1198,8 @@ img {
     }
 
     .img-fifth-section {
-        width: 658px;
-        height: 536px;
+
+        height: 100%;
     }
 
     .fifth-section-input:hover,
@@ -1248,6 +1284,8 @@ img {
     padding-block: 32px;
     padding-inline: 8px;
 
+    margin: 0 auto;
+
     background-color: #fbfbfb;
 }
 
@@ -1302,6 +1340,10 @@ img {
         display: flex;
         justify-content: center;
         gap: 32px;
+    }
+
+    .sixth-section-item {
+        margin: 0;
     }
 
     .hidden-item-vik_rom {

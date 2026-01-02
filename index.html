@@ -9,6 +9,7 @@
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="./css/styles.css" />
+<link rel="icon" type="image/favicon-icon" href="./images/favicon.png">
 </head>
 
 <body>
@@ -107,7 +108,7 @@
 
 <main>
 <!-- #region first-section -->
-<section class="first-section hidden">
+<section class="first-section">
     <div class="first-section-container">
         <h1 class="main-text">
             Explore the High Seas with Our Luxury Yacht Rentals
@@ -121,7 +122,7 @@
 <!-- #endregion first-section -->
 
 <!-- #region second-section -->
-<section class="second-section hidden">
+<section class="second-section">
     <div class="second-section-container">
             <div class="second-section-block-container">
                 <h2 class="text">
@@ -237,7 +238,7 @@
 <!-- #endregion third-section -->
 
 <!-- #region fourth-section -->
-<section class="fourth-section hidden">
+<section class="fourth-section">
     <h2 class="visually-hidden">Advantures</h2>
     <div class="fourth-section-container">
         <div class="order-list-container">
@@ -276,21 +277,34 @@
                 </li>
             </ol>
         </div>
-            <img class="img-fourth-section" src="./images/adventures3b.jpg"
-                     alt="adventures"
-                     width="540"
-                    />
+            <picture>
+                <source srcset="./images/adventures.jpg 1x, ./images/adventures-desktop14@2x.jpg 2x" media="(min-width: 1440px)"/>
+                <source srcset="./images/adventures-desktop12.jpg 1x, ./images/adventures-desktop12@2x.jpg 2x" media="(min-width: 1280px)"/>
+                <source srcset="./images/adventures-tablet.jpg 1x, ./images/adventures-tablet@2x.jpg 2x" media="(min-width: 768px)"/>
+                <source srcset="./images/adventures-mobile.jpg 1x, ./images/adventures-mobile@2x.jpg 2x" media="(max-width: 767px)"/>
+                <img class="img-fourth-section" src="./images/adventures.jpg"
+                         alt="adventures"
+                         width="540"
+                        />
+            </picture>
         </div>
 </section>
 <!-- #endregion fourth-section -->
 
 <!-- #region fifth-section -->
-<section class="fifth-section hidden">
+<section class="fifth-section">
     <div class="fifth-section-container">
-        <img class="img-fifth-section" src="./images/rent-a-yacht3b.jpg"
-         alt="rent-a-yacht"
-         width="768"
-         />
+        <picture>
+            <source srcset="./images/rent-a-yacht.jpg 1x, ./images/rent-a-yacht-desktop14@2x.jpg 2x" media="(min-width: 1440px)"/>
+            <source srcset="./images/rent-a-yacht-desktop12.jpg 1x, ./images/rent-a-yacht-desktop12@2x.jpg 2x" media="(min-width: 1280px)"/>
+            <source srcset="./images/rent-a-yacht-tablet.jpg 1x, ./images/rent-a-yacht-tablet@2x.jpg 2x" media="(min-width: 768px)"/>
+            <source srcset="./images/rent-a-yacht-mobile.jpg 1x, ./images/rent-a-yacht-mobile@2x.jpg 2x" media="(max-width: 767px)"/>
+            <img class="img-fifth-section"
+                src="./images/rent-a-yacht.jpg"
+                alt="rent-a-yacht"
+                width="768"
+                />
+        </picture>
             <div class="form-container" id="form">
                 <h2 class="text fifth-section-text">Rent a yacht now</h2>
                 <form class="fifth-section-form">
@@ -311,7 +325,7 @@
 <!-- #endregion fifth-section -->
 
 <!-- #region sixth-section -->
-<section class="sixth-section hidden">
+<section class="sixth-section">
     <h2 class="text sixth-section-text">
         YachtJet take pride in providing the best possible service and experience to our customers
     </h2>
@@ -320,30 +334,39 @@
         </p>
             <ul class="sixth-section-list">
                 <li class="sixth-section-item">
-                    <img class="img-sixth-section" src="./images/john-wax.png"
-                         alt="John Wax"
-                         width="56"
-                         />
+                    <img class="img-sixth-section"
+                        src="./images/john-wax.png"
+                        srcset="./images/john-wax@2x.png"
+                        alt="John Wax"
+                        width="56"
+                        height="56"
+                        />
                     <h3 class="sixth-section-text-by-text">John Wax</h3>
                     <p class="sixth-section-paragraph">
                         I rented the Lagoon 620 with my family for a week-long vacation and it was the best decision ever. The yacht was spacious, comfortable, and luxurious, and the crew took care of everything.
                     </p>
                 </li>
                 <li class="sixth-section-item hidden-item-vik_rom">
-                    <img class="img-sixth-section" src="./images/victoria-romashenko.png"
-                         alt="Victoria Romashenko"
-                         width="56"
-                         />
+                    <img class="img-sixth-section"
+                        src="./images/victoria-romashenko.png"
+                        srcset="./images/victoria-romashenko@2x.png"
+                        alt="Victoria Romashenko"
+                        width="56"
+                        height="56"
+                        />
                     <h3 class="sixth-section-text-by-text">Victoria Romashenko</h3>
                     <p class="sixth-section-paragraph vik_rom-paragraph">
                         The Sunseeker Manhattan 66 was the perfect choice for our romantic getaway. The yacht was beautifully designed, with all the amenities we needed, and the crew was attentive and friendly.
                     </p>
                 </li>
                 <li class="sixth-section-item hidden-item-ihor_tr">
-                    <img class="img-sixth-section" src="./images/ihor-trachuk.png"
-                         alt="Ihor Trachuk"
-                         width="56"
-                         />
+                    <img class="img-sixth-section"
+                        src="./images/ihor-trachuk.png"
+                        srcset="./images/ihor-trachuk@2x.png"
+                        alt="Ihor Trachuk"
+                        width="56"
+                        height="56"
+                        />
                     <h3 class="sixth-section-text-by-text">Ihor Trachuk</h3>
                     <p class="sixth-section-paragraph ihor_tr-paragraph">
                         The Azimut 80 was the most luxurious yacht I've ever been on. The cabins were spacious and elegant, and the outdoor areas were perfect for relaxing and entertaining. Worth every penny!
@@ -355,7 +378,7 @@
 </main>
 
 <!-- #region footer -->
-<footer class="footer-page hidden">
+<footer class="footer-page">
     <nav class="footer-page-nav">
     <a class="footer-page-logo" href="./index.html">yachtjet</a>
     <ul class="footer-page-nav-list">
